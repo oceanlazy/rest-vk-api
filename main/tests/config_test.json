@@ -1,0 +1,10 @@
+{
+  "app_id": null,
+  "login": null,
+  "password": null,
+  "service_token": null,
+  "proxies":{
+    "http": null,
+    "https": null
+  }
+}
