@@ -7,11 +7,12 @@ from rest_framework.response import Response
 
 
 def get_credentials():
+    credentials = {}
     cfg_path = os.path.join(os.path.dirname(__file__), 'config_test.json')
     if os.path.isfile(cfg_path):
         with open(cfg_path) as f:
-            return json.load(f)
-    return {}
+            credentials = json.load(f)
+    return credentials
 
 
 class TestViews(TestCase):
