@@ -20,6 +20,11 @@ $ pip install -r requirements.txt
 
 ## Usage
 
+#### Create VK APP
+    
+To interact with the API, you need to [create](https://vk.com/editapp?act=create) an Standalone application and save the following app data for later use: app id, service token, login and password.
+
+
     python manage.py runserver
     
 #### Access to API using httpie
