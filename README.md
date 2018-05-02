@@ -23,6 +23,11 @@ $ pip install -r requirements.txt
     
 To interact with the API, you need to [create](https://vk.com/editapp?act=create) an Standalone application and save the following app data for later use: app id, service token, login and password.
 
+#### Provide a proxies
+
+Modify `proxies` value in file `main/main_settings.py`, for example: `{"http": "ip:port", "https": "ip:port"}`
+
+#### Run server
 
     python manage.py runserver
     
