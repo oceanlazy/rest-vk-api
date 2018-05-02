@@ -8,7 +8,6 @@ This is a simple REST API for VK API using the [VVK API wrapper](https://github.
 
 ![Python3](https://img.shields.io/badge/Python-3-brightgreen.svg)
 [![Release](https://img.shields.io/github/release/vadimk2016/rest-vk-api.svg)](https://github.com/vadimk2016/rest-vk-api/releases)
-[![Documentation Status](https://readthedocs.org/projects/rest-vk-api/badge/?version=latest)](http://rest-vk-api.readthedocs.io/en/latest/?badge=latest)
 [![Build Status](https://travis-ci.org/vadimk2016/rest-vk-api.svg?branch=master)](https://travis-ci.org/vadimk2016/rest-vk-api)
 [![Coverage Status](https://coveralls.io/repos/github/vadimk2016/rest-vk-api/badge.svg)](https://coveralls.io/github/vadimk2016/rest-vk-api)
 ### Install
